@@ -17,13 +17,12 @@ A comprehensive Machine Learning as a Service (MLaaS) platform that enables mult
 - **Advanced ML**: PyTorch, Scikit-learn, Concrete-ML integration
 
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+
 - Node.js 16+
 - MongoDB
-- AWS Account (for S3 storage)
 
 ### Backend Setup
 ```bash
@@ -113,7 +112,7 @@ cd frontend && npm run build
 cd backend && python app.py
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
