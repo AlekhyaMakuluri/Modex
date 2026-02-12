@@ -16,7 +16,7 @@ def setup_mongodb():
     load_dotenv()
     
     # Get MongoDB URI
-    mongo_uri = os.environ.get('MONGO_URI', 'mongodb+srv://Modex:majorproject@cluster0.t3xszeh.mongodb.net/mlaas_platform?retryWrites=true&w=majority')
+    mongo_uri = os.environ.get('MONGO_URI', 'your_mongo-creds')
     
     try:
         # Connect to MongoDB
@@ -89,7 +89,7 @@ def setup_mongodb():
         print("1. Make sure MongoDB is running: brew services start mongodb-community")
         print("2. Check your MONGO_URI in .env file")
         print("3. For local MongoDB: mongodb://localhost:27017/mlaas_platform")
-        print("4. For MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/mlaas_platform")
+        print("4. For MongoDB Atlas: your_mongo-creds")
         sys.exit(1)
 
 if __name__ == "__main__":
